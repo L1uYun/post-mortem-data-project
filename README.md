@@ -67,13 +67,13 @@ post-mortem-data-project/
 
 **约定:**
 
-- **贡献者 (所有人):** 请从下面 **第 3 节的「两种参与路径」** 中任选一种。
-- **整合者 (志愿者):** 共同维护 `docs/shared/ideas.md` 与 `docs/final`。你们的材料来源是 `Issues` 区和 `docs/contributors/` 目录。
+- **贡献者 :** 请从下面 **第 3 节的「两种参与路径」** 中任选一种。
+- **整合者 :** 共同维护 `docs/shared/ideas.md` 与 `docs/final`。你们的材料来源是 `Issues` 区和 `docs/contributors/` 目录。
 ## 3 如何参与 (关键！)
 
 我们提供两种参与方式，**请任选一种**。你不需要懂 Git 也能贡献。
 
----
+
 
 ### 路径 A： 使用 `Issues` 提交 (像发帖一样简单)
 
@@ -87,7 +87,7 @@ post-mortem-data-project/
 
 **恭喜！** 你的贡献已完成，所有人都可以看到并参与讨论。
 
----
+
 
 ### 路径 B： 使用 Fork 和 PR 提交 (标准 Git 流程)
 
@@ -101,7 +101,7 @@ post-mortem-data-project/
 
 **整合者会 Review 你的 PR 并将其合并到 `docs/contributors/` 目录中。**
 
----
+
 ## 4 个人贡献模版
 
 （无论你使用路径 A 还是 B，都请使用此模版）
