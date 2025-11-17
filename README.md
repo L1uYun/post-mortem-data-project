@@ -65,49 +65,46 @@ post-mortem-data-project/
       decisions.md          # 重要决定和分工记录
 ```
 
-约定:
+**约定:**
 
-* 普通同学主要编辑 `docs/contributors/自己的名字.md`
-* 愿意做整合和写报告的同学, 共同维护 `docs/shared/ideas.md` 与 `docs/final`
+- **贡献者 (所有人):** 请从下面 **第 3 节的「两种参与路径」** 中任选一种。
+- **整合者 (志愿者):** 共同维护 `docs/shared/ideas.md` 与 `docs/final`。你们的材料来源是 `Issues` 区和 `docs/contributors/` 目录。
+## 3 如何参与 (关键！)
 
-## 3 如何参与
+我们提供两种参与方式，**请任选一种**。你不需要懂 Git 也能贡献。
 
-### 3.1 通过 GitHub 自己提交
+---
 
-网页操作即可, 不需要命令行。
+### 路径 A： 使用 `Issues` 提交 (像发帖一样简单)
 
-根据权限不同有两种方式:
+**适合：** 不熟悉 GitHub，或者只想快速提交想法、发起讨论的同学。
 
-* 如果被加为仓库协作者
+1. 打开本仓库顶部的 **`Issues`** 标签页。
+2. 点击绿色的 **`New issue`** (新建议题) 按钮。
+3. **标题 (Title):** 写 `[个人贡献] 你的名字` (例如: `[个人贡献] 李四`)
+4. **内容 (Body):** 把下面**第 4 节的「个人贡献模版」**复制进去，然后填写你自己的内容。
+5. 点击 **`Submit new issue`** (提交) 按钮。
 
-  1. 打开仓库并登录 GitHub
-  2. 进入 `docs/contributors` 目录
-  3. 点击右上角 `Add file` → `Create new file`
-  4. 文件名写 `你的名字.md`
-  5. 把下面的个人模版复制进去, 在网页里修改成自己的内容
-  6. 页面底部填写 commit message, 点击 `Commit changes` 保存
+**恭喜！** 你的贡献已完成，所有人都可以看到并参与讨论。
 
-* 如果不是协作者
+---
 
-  1. 点击页面右上角 `Fork`, 在自己账号下生成一份副本
-  2. 在自己的仓库里按上面步骤创建和编辑 `docs/contributors/你的名字.md`
-  3. 编辑完成后, 点击 `Pull requests` → `New pull request`, 发起 PR 回到本仓库
+### 路径 B： 使用 Fork 和 PR 提交 (标准 Git 流程)
 
-针对 `docs/contributors` 的改动, 一般只会做基本路径和冲突检查, 内容本身留给老师评估。
+**适合：** 熟悉 GitHub (Fork & PR) 流程的同学。
 
-### 3.2 不熟悉 GitHub 或不想学的同学
+1. **Fork 仓库：** 点击页面右上角 `Fork`，在你自己账号下生成一份副本。
+2. **创建文件：** 在你 Fork 的仓库中，进入 `docs/contributors` 目录，点击 `Add file` → `Create new file`。
+3. **文件名：** 写 `你的名字.md` (例如: `liuyun.md`)。
+4. **填写内容：** 把下面**第 4 节的「个人贡献模版」**复制进去，填写你的内容。
+5. **提交 PR：** 保存文件后，回到你 Fork 仓库的主页，点击 `Pull requests` → `New pull request`，将你的修改提交回本仓库 (偶数组的主仓库)。
 
-也可以按这种方式参与:
+**整合者会 Review 你的 PR 并将其合并到 `docs/contributors/` 目录中。**
 
-1. 在本地用任意工具写好内容 (Word, 记事本, Markdown 均可)
-2. 发给愿意帮忙上传的同学
-3. 请对方帮你在 `docs/contributors/你的名字.md` 中粘贴内容
-
-不会使用 GitHub 不会影响内容是否被计入。
-
+---
 ## 4 个人贡献模版
 
-在 `docs/contributors/你的名字.md` 中建议使用下面结构:
+（无论你使用路径 A 还是 B，都请使用此模版）
 
 ```markdown
 # 贡献者
@@ -167,6 +164,10 @@ Title 3:
 
 ## 5 公共汇总: ideas.md
 
+**维护方式:**
+
+- **整合者** 从 **`Issues` 区** 和 **`docs/contributors/` 目录** 中挑出相近的想法, 合并成一个 Idea。
+- （推荐）整合者可以使用 **Labels (标签)** 功能来管理 Issues，例如标记 `Idea-1`, `待处理`, `已汇总`。
 `docs/shared/ideas.md` 用来汇总全组的候选研究路线。
 每一条研究路线为一个小节, 同时包含:
 
