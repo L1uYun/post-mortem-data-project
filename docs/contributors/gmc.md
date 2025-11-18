@@ -1,7 +1,7 @@
 # 贡献者
 
 姓名或网名:高铭辰
-(可选) 学号:202208060115
+学号:202208060115
 
 ## 0 偶数组背景
 
@@ -51,7 +51,7 @@ Q1:
    你可以从中抽取：死后隐私的定义；与在世隐私权的相似与不同点；
    这为你设计“跨代隐私策略”提供理论基础。
 
-## 3 你想到的英文论文标题 (建议 3 到 5 个)
+## 3 你想到的英文论文标题 
 
 Title 1:**Intergenerational Multi-Subject Privacy: A Formal Framework for Posthumous Personal Data Release**
 + “Intergenerational Multi-Subject Privacy” → 一眼看出是 privacy 新概念 / 新定义。
@@ -65,7 +65,8 @@ Title 2:**The Living, the Dead, and Their Events: Intergenerational Multi-Subjec
 + “Intergenerational Multi-Subject Privacy” 作为 subtitle 中心结构；
 + “Posthumous Data Release” 明确主题。
 
-
+### 目标会议，方向
+CCS Privacy and Anonymity
 
 ## 4 你认为可能的科学价值和创新点
 
