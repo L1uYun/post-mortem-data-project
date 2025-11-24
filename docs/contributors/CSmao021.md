@@ -13,23 +13,33 @@ Q2：如何阻断隐私在多代模型之间的跨代遗传，使模型体系不
 **2 你找到的相关工作**
 
 - **Quantifying Temporal Privacy Leakage in Continuous Event Data** — M. Rafiei et al., 2022.
+
    关键词：temporal leakage, continuous release, privacy metrics.
+  
    关联：扩展并实证化“时间相关导致的隐私泄露”概念，可直接用于衡量长期数字痕迹在历史重构中的风险。
 
 - **Bistochastically Private Release of Longitudinal Data** — N. Ruiz et al., 2025.
+
    关键词：longitudinal data, privacy-preserving release, longitudinal DP.
+  
    关联：针对纵向（decade-scale）数据的差分隐私扩展/方法，直接关系到如何在保留时间结构同时保护隐私，从而支持 Q1 中“在保证不可逆识别下重构群体轨迹”的技术路径。
 
 - **Machine Unlearning: A Comprehensive Survey** — W. Wang et al., 2024.
+
    关键词：unlearning survey, deletion methods, empirical evaluation.
+  
    关联：综述机器忘却领域的现状与局限，指出在多代模型/蒸馏场景下隐私残留的若干未解问题，正是 Q2 的研究空白之一。
 
 - **Machine Unlearning of Pre-trained Large Language Models** — J. Yao et al., 2024.
+
    关键词：LLM unlearning, right-to-be-forgotten, pretraining.
+  
    关联：研究如何对预训练大模型执行删除操作——Q2 关切模型谱系（pretrain → downstream → distillation）中隐私如何被继承/残留，该论文直接触及大型模型场景。
 
 - **A Privacy-Preserving Knowledge Distillation Framework (Swing Distillation)** — J. Li et al., 2022.
+
    关键词：knowledge distillation, privacy-preserving distillation, teacher→student leakage.
+  
    关联：研究如何在知识蒸馏过程中尽量阻止教师模型的私有信息流入学生模型；Q2 的“跨代遗传”正是蒸馏/继承场景中的隐私风险核心。
 
 **3 你想到的英文论文标题**
@@ -99,4 +109,5 @@ Q2：如何阻断隐私在多代模型之间的跨代遗传，使模型体系不
 - 初步调研了隐私保护、时间序列隐私泄露、长期行为数据研究相关文献。
 - 对现有的差分隐私与模型遗忘技术做了初步总结。
 - 提出了三个潜在科研问题和一个核心理论贡献方向。
+
 
